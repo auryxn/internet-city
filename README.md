@@ -1,6 +1,6 @@
 # Город-Интернет
 
-> Часть портфолио: [сайт-портфолио](https://auryxn.github.io) — репозиторий сайта [site-admin](https://github.com/auryxn/site-admin).
+> Часть портфолио: [сайт-портфолио](https://auryxn.github.io/site-admin/) — репозиторий сайта [site-admin](https://github.com/auryxn/site-admin).
 
 > Интерактивная 3D-модель того, как интернет доставляет данные: путь запроса от ввода адреса до отрисовки страницы.
 
