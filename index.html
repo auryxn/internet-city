@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Город-Интернет: путь запроса</title>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;600&family=Unbounded:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<canvas id="c"></canvas>
+<h1>Город-Интернет</h1>
+<div id="hint">тяните — вращать · колесо — приблизить</div>
+<section id="panel" aria-live="polite">
+  <p id="no"></p><h2 id="ti"></h2><p id="tx"></p>
+  <div class="row">
+    <button id="prev">Назад</button><button id="next" class="p">Дальше</button>
+    <button id="again">Заново</button><button id="auto" aria-pressed="false">Авто</button><button id="more">Подробнее</button><button id="quiz">Квиз</button>
+  </div>
+  <div class="row">
+    <button id="mS" aria-pressed="true">Просто</button><button id="mT" aria-pressed="false">Технически</button>
+    <label><input type="checkbox" id="loss">Потерять пакет</label><label><input type="checkbox" id="loop">Зациклить</label>
+  </div>
+  <div id="dots"></div>
+</section>
+<dialog id="dlg"><div id="dc"></div></dialog>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
